@@ -1,0 +1,58 @@
+body{
+    background-color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+.bg-nav{
+    background-color: #2e6398;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #437fba;
+}
+
+.flag{
+    width: 30px;
+    height: 30px;
+}
+
+.main-container{
+    margin-top: 60px;
+}
+
+.profile-container{
+    border: #2e6398;
+}
+
+.profile-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInLeft 0.75s ease-in-out;
+}
+
+.img-javi{
+    width: 250;
+    height: 250px;
+    border-radius: 70%;
+}
+
+.profile-btn{
+    text-align: center;
+    align-items: center;
+}
+
+.profile-text{
+    animation: fadeInRight 0.75s ease-in-out;
+}
+
+.btn-cv{
+    background-color: #2e6398;
+    width: 50%;
+    float: left;
+}
+
+.logo{
+    height: 30px;
+    margin-left: 60px;
+}
