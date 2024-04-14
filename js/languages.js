@@ -4,7 +4,7 @@ function changeToSpanish() {
     document.getElementById("text-skills").innerHTML = "Habilidades";
     document.getElementById("text-contact").innerHTML = "Contacto";
     document.getElementById("text-aboutme2").innerHTML = "Sobre mí";
-    document.getElementById("navbarSupportedContent").style.marginRight = "125px";
+    document.getElementById("navbarSupportedContent").style.marginRight = "115px";
     document.getElementById("text-description").innerHTML = "Actualmente estudio Ciencia de Datos e Inteligencia Artificial \
     en la Universidad Politécnica de Madrid. Me gusta aprender y \
     explorar el mundo de las tecnologías en general, ampliando mis conocimientos \
