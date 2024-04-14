@@ -4,7 +4,7 @@ function changeToSpanish() {
     document.getElementById("text-skills").innerHTML = "Habilidades";
     document.getElementById("text-contact").innerHTML = "Contacto";
     document.getElementById("text-aboutme2").innerHTML = "Sobre mí";
-    document.getElementById("navbarSupportedContent").style.marginRight = "115px";
+    document.getElementById("navbarSupportedContent").style.marginRight = "105px";
     document.getElementById("text-description").innerHTML = "Actualmente estudio Ciencia de Datos e Inteligencia Artificial \
     en la Universidad Politécnica de Madrid. Me gusta aprender y \
     explorar el mundo de las tecnologías en general, ampliando mis conocimientos \
@@ -50,7 +50,7 @@ function changeToEnglish() {
     document.getElementById("text-skills").innerHTML = "Skills";
     document.getElementById("text-contact").innerHTML = "Contact";
     document.getElementById("text-aboutme2").innerHTML = "About me";
-    document.getElementById("navbarSupportedContent").style.marginRight = "195px";
+    document.getElementById("navbarSupportedContent").style.marginRight = "180px";
     document.getElementById("text-description").innerHTML = "Currently, I am studying Data Science and Artificial Intelligence \
     at the Universidad Politécnica de Madrid. I enjoy learning and exploring the world of technologies in general, expanding my \
     knowledge and skills. On a personal level, I consider myself a person who enjoys the opportunity to apply my skills to positively \

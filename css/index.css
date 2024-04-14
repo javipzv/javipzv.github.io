@@ -164,3 +164,16 @@ body{
 .relleno{
     height: 10px;
 }
+
+@media (max-width: 991.98px) {
+    .nombre {
+      margin-left: 170px;
+    }
+  }
+
+  @media (min-width: 991.98px) {
+    .nombre {
+      margin-left: 190px;
+    }
+  }
+  
