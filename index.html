@@ -11,16 +11,16 @@
     <link rel="stylesheet" href="css/effects.css">
 </head>
 <body background="">
-  <nav class="navbar navbar-expand-lg bg-nav">
+  <nav class="navbar navbar-expand-lg bg-nav navbar-light">
     <div class="container">
-      <a class="navbar-brand" href="#!" style="color: white; margin-left: 195px;">Javier Pérez Vargas</a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-right: 165px;">
+      <a class="navbar-brand" href="#!" style="color: white; margin-left: 165px;">Javier Pérez Vargas</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-right: 195px;">
         <ul class="navbar-nav ms-auto align-items-center">
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#!" style="color: white;">About me</a>
+            <a class="nav-link mx-2" href="#" style="color: white;">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#!" style="color: white;">Projects</a>
+            <a class="nav-link mx-2" href="#projects" style="color: white;">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link mx-2" href="#!" style="color: white;">Skills</a>
@@ -29,10 +29,10 @@
             <a class="nav-link mx-2" href="#!" style="color: white;">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#!" style="color: white;"><img class="flag" src="/static/spain.png" alt="Español"></a>
+            <a class="nav-link mx-2" href="#!" style="color: white;"><img class="flag zoom" src="/static/spain.png" alt="Español"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#!" style="color: white;"><img class="flag" src="/static/uk.png" alt="English"></a>
+            <a class="nav-link mx-2" href="#!" style="color: white;"><img class="flag zoom" src="/static/uk.png" alt="English"></a>
           </li>
         </ul>
       </div>
@@ -41,11 +41,11 @@
 
   <div class="container main-container">
     <div class="container row profile-container">
-      <div class="container profile-img col-md-5 in-left">
+      <div class="container profile-img col-md-4">
         <img src="/static/fotoPerfil.png" alt="profile" class="img-javi">
       </div>
       <div class="container col-md-6 profile-text">
-        <div class="container">
+        <div class="container my-3">
           <div class="row">
             <h1 class="profile-title">About me</h1>
             <p class="profile-desc">Currently, I am studying Data Science and Artificial Intelligence
@@ -55,12 +55,111 @@
               the opportunity to apply my skills to positively impact the people around me.</p>
           </div>
           <div class="container profile-btn align-items-center">
-            <a href="/static/CV.pdf" class="btn btn-primary btn-cv">Download CV</a>
-            <a href="https://github.com/javipzv"><img class="logo" src="static/icons/github.svg"></a>
-            <a href="https://www.linkedin.com/in/javier-p%C3%A9rez-vargas-8002b9213/"><img class="logo" src="static/icons/linkedin.svg"></a>
+            <a href="/static/CV.pdf" class="btn btn-primary btn-cv zoom-btn">Download CV</a>
+            <a href="https://github.com/javipzv"><img class="logo zoom" src="static/icons/github.svg"></a>
+            <a href="https://www.linkedin.com/in/javier-p%C3%A9rez-vargas-8002b9213/"><img class="logo zoom" src="static/icons/linkedin.svg"></a>
           </div>
         </div>
       </div>
     </div>
+
+    <hr class="hr-line">
+
+    <div class="container-lg d-none d-lg-block main-projects-container" id="projects">
+      <div class="container title-container">
+        <h1 class="projects-title titleUp">My projects</h1>
+      </div>
+      <div class="container projects-container my-3">
+        <div class="row">
+          <div class="container project">
+            <div class="card zoom-btn">
+              <img class="card-img-top" src="/static/project-clustering.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Fruit Dataset Analysis And Clustering Techniques</h5>
+                <p class="card-text">Analysis of a fruit dataset. It covers data exploration, preprocessing techniques, the application of various clustering methods, and discussion of the results.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container project">
+            <div class="card zoom-btn">
+              <img class="card-img-top" src="/static/project-kmeans.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">K-Means From Scratch </h5>
+                <p class="card-text">Python implementation of the K-Means clustering algorithm from scratch (using NumPy). It includes tests on different datasets</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container" style="height: 50px;"></div>
+        <div class="row">
+          <div class="container project">
+            <div class="card zoom-btn">
+              <img class="card-img-top" src="/static/project-clustering.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Fruit Dataset Analysis And Clustering Techniques</h5>
+                <p class="card-text">Analysis of a fruit dataset. It covers data exploration, preprocessing techniques, the application of various clustering methods, and discussion of the results.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container project">
+            <div class="card zoom-btn">
+              <img class="card-img-top" src="/static/project-kmeans.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">K-Means From Scratch </h5>
+                <p class="card-text">Python implementation of the K-Means clustering algorithm from scratch (using NumPy). It includes tests on different datasets</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-lg-none main-projects-container-d-sm" id="projects">
+      <div class="container title-container">
+        <h1 class="projects-title">My projects</h1>
+      </div>
+      <div class="container projects-container-d-sm my-3">
+        <div class="row container project-d-sm">
+          <div class="card zoom-btn">
+              <img class="card-img-top" src="/static/project-clustering.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Fruit Dataset Analysis And Clustering Techniques</h5>
+                <p class="card-text">Analysis of a fruit dataset. It covers data exploration, preprocessing techniques, the application of various clustering methods, and discussion of the results.</p>
+              </div>
+          </div>
+        </div>
+        <div class="row container project-d-sm">
+          <div class="card zoom-btn">
+              <img class="card-img-top" src="/static/project-kmeans.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">K-Means From Scratch </h5>
+                <p class="card-text">Python implementation of the K-Means clustering algorithm from scratch (using NumPy). It includes tests on different datasets</p>
+              </div>
+          </div>
+        </div>
+        <div class="row container project-d-sm">
+          <div class="card zoom-btn">
+              <img class="card-img-top" src="/static/project-kmeans.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">K-Means From Scratch </h5>
+                <p class="card-text">Python implementation of the K-Means clustering algorithm from scratch (using NumPy). It includes tests on different datasets</p>
+              </div>
+          </div>
+        </div>
+        <div class="row container project-d-sm">
+          <div class="card zoom-btn">
+              <img class="card-img-top" src="/static/project-kmeans.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">K-Means From Scratch </h5>
+                <p class="card-text">Python implementation of the K-Means clustering algorithm from scratch (using NumPy). It includes tests on different datasets</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="hr-line">
+
+
 </body>
 </html>

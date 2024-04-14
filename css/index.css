@@ -1,5 +1,5 @@
 body{
-    background-color: #ffffff;
+    background-color: #d7eaff;
     font-family: "Poppins", sans-serif;
 }
 
@@ -7,8 +7,21 @@ body{
     background-color: #2e6398;
 }
 
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #437fba;
+}
+
+.hr-line{
+    margin-top: 50px;
+    color: black;
+    animation: fadeInUp 0.75s ease-in-out;
 }
 
 .flag{
@@ -17,11 +30,14 @@ body{
 }
 
 .main-container{
-    margin-top: 60px;
+    margin-top: 120px;
+    height: 2000px;
 }
 
-.profile-container{
-    border: #2e6398;
+.title-container{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .profile-img{
@@ -29,6 +45,7 @@ body{
     justify-content: center;
     align-items: center;
     animation: fadeInLeft 0.75s ease-in-out;
+    margin-bottom: 30px;
 }
 
 .img-javi{
@@ -40,19 +57,64 @@ body{
 .profile-btn{
     text-align: center;
     align-items: center;
+    margin-bottom: 33px;
 }
 
 .profile-text{
+    border: #437fba;
+    border-width: 0.1ch;
+    border-style: solid;
     animation: fadeInRight 0.75s ease-in-out;
 }
 
 .btn-cv{
-    background-color: #2e6398;
+    border: #d7eaff;
+    border-width: 0.1ch;
+    border-style: solid;
+    background-color:  #437fba;
     width: 50%;
     float: left;
 }
 
 .logo{
     height: 30px;
-    margin-left: 60px;
+    margin-left: 50px;
+}
+
+.main-projects-container{
+    background-color: #d7eaff;
+    margin-top: 60px;
+    height: 900px;
+    width: 80%;
+}
+
+.main-projects-container-d-sm{
+    background-color: #d7eaff;
+    margin-top: 60px;
+    height: 1800px;
+    width: 80%;
+}
+
+.project{
+    width: 49%;
+    height: 380px;
+    animation: fadeInUp 0.75s ease-in-out;
+}
+
+.titleUp{
+    animation: fadeInUp 0.75s ease-in-out;
+}
+
+.project-d-sm{
+    margin-left: 10px;
+    margin-top: 30px;
+    height: 380px;
+}
+
+.card{
+    height: 380px;
+}
+
+.card-img-top{
+    margin-top: 15px;
 }
