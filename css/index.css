@@ -169,6 +169,12 @@ body{
     height: 10px;
 }
 
+@media (max-width: 700.98px) {
+    .skill-img{
+        height: 150px;
+    }
+  }
+
 @media (max-width: 991.98px) {
     .nombre {
       margin-left: 170px;
@@ -178,7 +184,6 @@ body{
     }
     .profile-img{
         margin-left: 12px;
-    
     }
   }
 
