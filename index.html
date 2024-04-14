@@ -215,29 +215,17 @@
         <h1 class="contact-title" id="text-contact2">Contact</h1>
       </div>
       <div class="container mt-5 contact-container text-white">
-        <form>
-            <div class="px-4 pt-4">
-                <label for="name" class="form-label" id="text-form-name">Name</label>
-                <input type="text" class="form-control">
-            </div>
-            <div class="px-4 pt-4">
-                <label for="surnames" class="form-label" id="text-form-surnames">Surnames</label>
-                <input type="text" class="form-control">
-            </div>
-            <div class="px-4 pt-4">
-              <label for="subject" class="form-label" id="text-form-email">Email</label>
-              <input type="text" class="form-control">
-          </div>
+        <form method="post" enctype="text/plain">
             <div class="px-4 pt-4">
                 <label for="subject" class="form-label" id="text-form-subject">Subject</label>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" id="subject">
             </div>
             <div class="px-4 pt-4">
                 <label for="message" class="form-label" id="text-form-message">Message</label>
-                <textarea id="message" class="form-control" rows="6"></textarea>
+                <textarea id="message" class="form-control" rows="6" id="message"></textarea>
             </div>
             <div class="container text-center btn-bottom">
-                <button class="btn btn-primary btn-sucess w-25">
+                <button class="btn btn-primary btn-sucess w-25" onclick="sendEmail()">
                     <b id="text-form-send">Send</b>
                 </button>
             </div>

@@ -38,9 +38,6 @@ function changeToSpanish() {
     utilizando algoritmos como Árboles de Decisión o SVM.";
     document.getElementById("text-skills2").innerHTML = "Mis habilidades";
     document.getElementById("text-contact2").innerHTML = "Contacto";
-    document.getElementById("text-form-name").innerHTML = "Nombre";
-    document.getElementById("text-form-surnames").innerHTML = "Apellidos";
-    document.getElementById("text-form-email").innerHTML = "Correo";
     document.getElementById("text-form-subject").innerHTML = "Asunto";
     document.getElementById("text-form-message").innerHTML = "Mensaje";
     document.getElementById("text-form-send").innerHTML = "Enviar";
@@ -86,11 +83,19 @@ function changeToEnglish() {
     and other data using algorithms such as Decision Trees or SVM.";
     document.getElementById("text-skills2").innerHTML = "My skills";
     document.getElementById("text-contact2").innerHTML = "Contact";
-    document.getElementById("text-form-name").innerHTML = "Name";
-    document.getElementById("text-form-surnames").innerHTML = "Surnames";
-    document.getElementById("text-form-email").innerHTML = "Email";
     document.getElementById("text-form-subject").innerHTML = "Subject";
     document.getElementById("text-form-message").innerHTML = "Message";
     document.getElementById("text-form-send").innerHTML = "Send";
     document.getElementById("text-contact3").innerHTML = "Contact";
+}
+
+function sendEmail() {
+    var subject = document.getElementById("subject").value;
+    var body = document.getElementById("message").value;
+  
+    var mailtoLink = "mailto:javierperezvargasjpv@gmail.com";
+    mailtoLink += "?subject=" + encodeURIComponent(subject);
+    mailtoLink += "&body=" + encodeURIComponent(body);
+  
+    window.location.href = mailtoLink;
 }
