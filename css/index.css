@@ -132,7 +132,6 @@ body{
 
 .skill{
     text-align: center;
-    margin-top: 10%;
 }
 
 .skill-img{
@@ -173,6 +172,9 @@ body{
 @media (max-width: 700.98px) {
     .skill-img{
         height: 150px;
+    }
+    .skill{
+        margin-top: 20%;
     }
   }
 
