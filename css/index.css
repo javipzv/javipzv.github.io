@@ -65,6 +65,8 @@ body{
     border-width: 0.1ch;
     border-style: solid;
     animation: fadeInRight 0.75s ease-in-out;
+    align-items: center;
+    display: flex;
 }
 
 .btn-cv{
@@ -124,7 +126,7 @@ body{
 }
 
 .skill-img{
-    width: 55%;
+    width: 45%;
 }
 
 .main-container-contact{
