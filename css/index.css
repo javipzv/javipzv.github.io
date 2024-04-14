@@ -1,5 +1,9 @@
+:root {
+    --main-color: #f5faff;
+  }
+
 body{
-    background-color: #d7eaff;
+    background-color: var(--main-color);
     font-family: "Poppins", sans-serif;
 }
 
@@ -70,7 +74,7 @@ body{
 }
 
 .btn-cv{
-    border: #d7eaff;
+    border: var(--main-color);;
     border-width: 0.1ch;
     border-style: solid;
     background-color:  #437fba;
@@ -84,14 +88,14 @@ body{
 }
 
 .main-projects-container{
-    background-color: #d7eaff;
+    background-color: var(--main-color);;
     margin-top: 60px;
     height: 900px;
     width: 80%;
 }
 
 .main-projects-container-d-sm{
-    background-color: #d7eaff;
+    background-color: var(--main-color);;
     margin-top: 60px;
     height: 1700px;
     width: 80%;
@@ -168,6 +172,13 @@ body{
 @media (max-width: 991.98px) {
     .nombre {
       margin-left: 170px;
+    }
+    .profile-text{
+        margin-left: 12px;
+    }
+    .profile-img{
+        margin-left: 12px;
+    
     }
   }
 
