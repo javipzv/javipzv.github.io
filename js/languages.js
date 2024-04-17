@@ -18,6 +18,12 @@ function changeToSpanish() {
     document.getElementById("text-title-kmeans").innerHTML = "K-Means desde cero";
     document.getElementById("text-description-kmeans").innerHTML = "Implementación de K-Means desde cero en Python, \
     usando NumPy. Incluye tests para distintos datasets.";
+    document.getElementById("text-title-digits").innerHTML = "Clasificador de dígitos (NN y CNN)";
+    document.getElementById("text-description-digits").innerHTML = "Este proyecto tiene el objetivo de desarrollar un clasificador de dígitos \
+    permitiendo así el reconocimento";
+    document.getElementById("text-title-hotel").innerHTML = "Predicción de reservas en hoteles";
+    document.getElementById("text-description-hotel").innerHTML = "Este trabajo cubre el preproceso y el análisis de un dataset de reservas en hoteles, \
+    haciendo un análisis exploratorio de los parámetros de la NN";
     document.getElementById("text-title-stitching").innerHTML = "Homografías y técnicas de panorámicas de imágenes";
     document.getElementById("text-description-stitching").innerHTML = "Unión de imágenes usando homografías, aplicando distintos métodos de detección de keypoints, \
     técnicas de matching, RANSAC y proyecciones.";
