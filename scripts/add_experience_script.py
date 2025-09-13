@@ -6,7 +6,7 @@ def add_experience(company, role, period, description_en, description_es, logo_p
         soup = BeautifulSoup(f, "html.parser")
 
     # Crear contenedor de experiencia
-    new_div = soup.new_tag("div", **{"class": "experience-item"})
+    new_div = soup.new_tag("div", **{"class": "experience-item zoom"})
 
     # Logo
     img = soup.new_tag("img", src=logo_path, **{"class": "experience-logo"})

@@ -200,6 +200,14 @@ body{
     margin: 0;
 }
 
+.experience-item.zoom {
+    transition: transform 0.3s ease;
+}
+
+.experience-item.zoom:hover {
+    transform: scale(1.05);
+}
+
 .footer-container{
     margin-right: 30px;
 }
