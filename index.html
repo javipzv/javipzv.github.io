@@ -1,400 +1,688 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.7">
-    <title>Javier Pérez Vargas</title>
-    <link rel="icon" href="/static/profile.png" type="image/png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/effects.css">
-    <script src="/js/languages.js" defer></script>
-</head>
-<body background="">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=0.7" name="viewport"/>
+  <title>
+   Javier Pérez Vargas
+  </title>
+  <link href="/static/profile.png" rel="icon" type="image/png"/>
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/>
+  <link href="css/index.css" rel="stylesheet"/>
+  <link href="css/effects.css" rel="stylesheet"/>
+  <script defer="" src="/js/languages.js">
+  </script>
+ </head>
+ <body background="">
   <nav class="navbar navbar-expand-lg bg-nav navbar-light">
-    <div class="container">
-      <a class="nav-link mx-2 d-lg-none" onclick="changeToEnglish()" style="color: white;"><img class="flag zoom" src="/static/uk.png" alt="English"></a>
-      <a class="navbar-brand d-block nombre" href="#" style="color: white;">Javier Pérez Vargas</a>
-      <a class="nav-link mx-2 d-lg-none" onclick="changeToSpanish()" style="color: white;"><img class="flag zoom" src="/static/spain.png" alt="Español"></a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-right: 180px;">
-        <ul class="navbar-nav ms-auto align-items-center">
-          <li class="nav-item">
-            <a class="nav-link mx-2 english" href="#" style="color: white;">About me</a>
-            <a class="nav-link mx-2 spanish" href="#" style="color: white;">Sobre mí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mx-2 english" href="#projects" style="color: white;">Projects</a>
-            <a class="nav-link mx-2 spanish" href="#projects" style="color: white;">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mx-2 english" href="#skills" style="color: white;">Skills</a>
-            <a class="nav-link mx-2 spanish" href="#skills" style="color: white;">Habilidades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mx-2 english" href="#contact" style="color: white;">Contact</a>
-            <a class="nav-link mx-2 spanish" href="#contact" style="color: white;">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mx-2" onclick="changeToSpanish()" style="color: white;"><img class="flag zoom" src="/static/spain.png" alt="Español"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mx-2" onclick="changeToEnglish()" style="color: white;"><img class="flag zoom" src="/static/uk.png" alt="English"></a>
-          </li>
-        </ul>
-      </div>
+   <div class="container">
+    <a class="nav-link mx-2 d-lg-none" onclick="changeToEnglish()" style="color: white;">
+     <img alt="English" class="flag zoom" src="/static/uk.png"/>
+    </a>
+    <a class="navbar-brand d-block nombre" href="#" style="color: white;">
+     Javier Pérez Vargas
+    </a>
+    <a class="nav-link mx-2 d-lg-none" onclick="changeToSpanish()" style="color: white;">
+     <img alt="Español" class="flag zoom" src="/static/spain.png"/>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-right: 180px;">
+     <ul class="navbar-nav ms-auto align-items-center">
+      <li class="nav-item">
+       <a class="nav-link mx-2 english" href="#" style="color: white;">
+        About me
+       </a>
+       <a class="nav-link mx-2 spanish" href="#" style="color: white;">
+        Sobre mí
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link mx-2 english" href="#projects" style="color: white;">
+        Projects
+       </a>
+       <a class="nav-link mx-2 spanish" href="#projects" style="color: white;">
+        Proyectos
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link mx-2 english" href="#skills" style="color: white;">
+        Skills
+       </a>
+       <a class="nav-link mx-2 spanish" href="#skills" style="color: white;">
+        Habilidades
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link mx-2 english" href="#contact" style="color: white;">
+        Contact
+       </a>
+       <a class="nav-link mx-2 spanish" href="#contact" style="color: white;">
+        Contacto
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link mx-2" onclick="changeToSpanish()" style="color: white;">
+        <img alt="Español" class="flag zoom" src="/static/spain.png"/>
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link mx-2" onclick="changeToEnglish()" style="color: white;">
+        <img alt="English" class="flag zoom" src="/static/uk.png"/>
+       </a>
+      </li>
+     </ul>
     </div>
+   </div>
   </nav>
-  
-
   <div class="container main-container">
-    <div class="container row profile-container">
-      <div class="container profile-img col-md-5 mx-sm-4">
-        <img src="/static/67e27fe64958e185ec4e3f6f_javier_perez_vargas-p-1600 (1).png" alt="profile" class="img-javi">
-      </div>
-      <div class="container col-md-5 profile-text mx-sm-3">
-        <div class="container my-3">
-          <div class="row">
-            <h1 class="profile-title english">About me</h1>
-            <h1 class="profile-title spanish">Sobre mí</h1>
-            <p class="profile-desc english">Currently, I am studying Data Science and Artificial Intelligence
+   <div class="container row profile-container">
+    <div class="container profile-img col-md-5 mx-sm-4">
+     <img alt="profile" class="img-javi" src="/static/67e27fe64958e185ec4e3f6f_javier_perez_vargas-p-1600 (1).png"/>
+    </div>
+    <div class="container col-md-5 profile-text mx-sm-3">
+     <div class="container my-3">
+      <div class="row">
+       <h1 class="profile-title english">
+        About me
+       </h1>
+       <h1 class="profile-title spanish">
+        Sobre mí
+       </h1>
+       <p class="profile-desc english">
+        Currently, I am studying Data Science and Artificial Intelligence
               at the Universidad Politécnica de Madrid. I enjoy learning and
               exploring the world of technologies in general, expanding my knowledge
               and skills. On a personal level, I consider myself a person who enjoys
-              the opportunity to apply my skills to positively impact the people around me.</p>
-            <p class="profile-desc spanish">Graduated in Data Science and Artificial Intelligence at UPM, 
+              the opportunity to apply my skills to positively impact the people around me.
+       </p>
+       <p class="profile-desc spanish">
+        Graduated in Data Science and Artificial Intelligence at UPM, 
               and now working on various projects related to data and artificial intelligence. 
               I'm interested in everything connected to technology, learning new things, and 
-              applying what I know in real projects—sometimes for work, sometimes out of curiosity.</p>
-          </div>
-          <div class="container profile-btn align-items-center">
-            <a href="/static/cv-english.pdf" class="btn btn-primary btn-cv zoom-btn english">Download CV</a>
-            <a href="/static/cv (2).pdf" class="btn btn-primary btn-cv zoom-btn spanish">Descargar CV</a>
-            <a href="https://github.com/javipzv"><img class="logo zoom" src="static/icons/github.svg"></a>
-            <a href="https://www.linkedin.com/in/javier-p%C3%A9rez-vargas-8002b9213/"><img class="logo zoom" src="static/icons/linkedin.svg"></a>
-          </div>
-        </div>
+              applying what I know in real projects—sometimes for work, sometimes out of curiosity.
+       </p>
       </div>
+      <div class="container profile-btn align-items-center">
+       <a class="btn btn-primary btn-cv zoom-btn english" href="/static/cv-english.pdf">
+        Download CV
+       </a>
+       <a class="btn btn-primary btn-cv zoom-btn spanish" href="/static/cv (2).pdf">
+        Descargar CV
+       </a>
+       <a href="https://github.com/javipzv">
+        <img class="logo zoom" src="static/icons/github.svg"/>
+       </a>
+       <a href="https://www.linkedin.com/in/javier-p%C3%A9rez-vargas-8002b9213/">
+        <img class="logo zoom" src="static/icons/linkedin.svg"/>
+       </a>
+      </div>
+     </div>
     </div>
-
-    <div class="container relleno" id="projects"></div>
-    <hr class="hr-line">
-
-    <div class="container-lg d-none d-lg-block main-projects-container">
-      <div class="container title-container">
-        <h1 class="projects-title english">My projects</h1>
-        <h1 class="projects-title spanish">Mis proyectos</h1>
-      </div>
-      <div class="container projects-container my-3">
-        <div class="row">
-          <div class="container project">
-            <a href="https://github.com/javipzv/facial-recognition">
-              <div class="card zoom-btn">
-                <img class="card-img-top" src="/static/projects/project-facial-recognition.png" alt="Facial Recognition Project">
-                <div class="card-body">
-                  <h5 class="card-title english">Mobile Gallery Facial Recognition</h5>
-                  <h5 class="card-title spanish">Reconocimiento Facial en Galería Móvil</h5>
-                  <p class="card-text english">Face Recognition Project Simulating a Mobile Photo Gallery with Machine Learning and Computer Vision Techniques.</p>
-                  <p class="card-text spanish">Proyecto de reconocimiento de caras simulando la galería de un móvil con técnicas de machine learning y computer vision.</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="container project">
-            <a href="https://github.com/javipzv/probabilistic-models-and-ensembles">
-              <div class="card zoom-btn">
-                <img class="card-img-top" src="/static/projects/project-probabilistic-and-ensembles.png" alt="Probabilistic and Ensembles Project">
-                <div class="card-body">
-                  <h5 class="card-title english">Data analysis using Machine Learning algorithms</h5>
-                  <h5 class="card-title spanish">Análisis de datos con algoritmos de Machine Learning</h5>
-                  <p class="card-text english">Analysis of a dataset using ML probabilistic models (Naive Bayes, QDA...) and ensemble methods (Random Forest, AdaBoost...).</p>
-                  <p class="card-text spanish">Análisis de un dataset usando algunos modelos probabilísticos de ML (Naive Bayes, QDA...) y métodos de ensembles (Random Forest, AdaBoost...).</p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="container" style="height: 50px;"></div>
-        <div class="row">
-          <div class="container project">
-            <a href="https://github.com/javipzv/fruits-data-analysis-and-clustering">
-              <div class="card zoom-btn">
-                <img class="card-img-top" src="/static/projects/project-clustering.png" alt="Clustering Project">
-                <div class="card-body">
-                  <h5 class="card-title english">Fruit Dataset Analysis And Clustering Techniques</h5>
-                  <h5 class="card-title spanish">Análisis de un dataset de frutas y uso de algoritmos de clustering</h5>
-                  <p class="card-text english">Analysis of a fruit dataset. It covers data exploration, preprocessing techniques, the application of various clustering methods, and discussion of the results.</p>
-                  <p class="card-text spanish">Análisis de un dataset de frutas que abarca la exploración de los datos, su preproceso, aplicación de métodos de clustering y la discusión de los resultados.</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="container project">
-            <a href="https://github.com/javipzv/kmeans-algorithm-from-scratch">
-              <div class="card zoom-btn">
-                <img class="card-img-top" src="/static/projects/project-kmeans.png" alt="K-Means Project">
-                <div class="card-body">
-                  <h5 class="card-title english">K-Means From Scratch</h5>
-                  <h5 class="card-title spanish">K-Means desde cero</h5>
-                  <p class="card-text english">Python implementation of the K-Means clustering algorithm from scratch (using NumPy). It includes tests on different datasets.</p>
-                  <p class="card-text spanish">Implementación de K-Means desde cero en Python, usando NumPy. Incluye tests para distintos datasets.</p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="container" style="height: 50px;"></div>
-        <div class="row">
-          <div class="container project">
-            <a href="https://github.com/javipzv/handwritten-digits-classifier">
-              <div class="card zoom-btn">
-                <img class="card-img-top" src="/static/projects/project-digits.png" alt="Digit Recognition Project">
-                <div class="card-body">
-                  <h5 class="card-title english">Handwritten Digits Classifier (NN and CNN)</h5>
-                  <h5 class="card-title spanish">Clasificador de dígitos (NN y CNN)</h5>
-                  <p class="card-text english">This project aims to develop a handwritten digits classifier using both normal NN and CNN architectures, enabling recognition of digits.</p>
-                  <p class="card-text spanish">Este proyecto tiene el objetivo de desarrollar un clasificador de dígitos, permitiendo así el reconocimento.</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="container project">
-            <a href="https://github.com/javipzv/hotel-reservation-prediction-with-nn">
-              <div class="card zoom-btn">
-                <img class="card-img-top" src="/static/projects/project-hotel.png" alt="Hotel Prediction Project">
-                <div class="card-body">
-                  <h5 class="card-title english">Hotel Reservation Prediction</h5>
-                  <h5 class="card-title spanish">Predicción de reservas en hoteles con NN</h5>
-                  <p class="card-text english">This project entails preprocessing and analysis of hotel reservation data, with a meticulous examination of diverse neural network parameters.</p>
-                  <p class="card-text spanish">Este trabajo cubre el preproceso y el análisis de un dataset de reservas en hoteles, haciendo un análisis exploratorio de los parámetros de la NN.</p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="container" style="height: 50px;"></div>
-        <div class="row">
-          <div class="container project">
-            <a href="https://github.com/javipzv/homographies-and-image-stitching">
-              <div class="card zoom-btn">
-                <img class="card-img-top" src="/static/projects/project-image-stitching.png" alt="Image Stitching Project">
-                <div class="card-body">
-                  <h5 class="card-title english">Homographies and Image Stitching Techniques</h5>
-                  <h5 class="card-title spanish">Homografías y técnicas de panorámicas de imágenes</h5>
-                  <p class="card-text english">Image stitching using homographies, applying different methods of keypoint detection, matching techniques, RANSAC and projections.</p>
-                  <p class="card-text spanish">Unión de imágenes usando homografías, aplicando distintos métodos de detección de keypoints, técnicas de matching, RANSAC y proyecciones.</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="container project">
-            <a href="https://github.com/javipzv/airline-passenger-satisfaction-prediction">
-              <div class="card zoom-btn">
-                <img class="card-img-top" src="/static/projects/project-airline-prediction.png" alt="Airline Project">
-                <div class="card-body">
-                  <h5 class="card-title english">Airline Passenger Satisfaction Prediction</h5>
-                  <h5 class="card-title spanish">Predicción de satisfacción de pasajeros</h5>
-                  <p class="card-text english">Analysis of a dataset of some polls about airline passengers satisfaction and other data using algorithms such as Decision Trees or SVM.</p>
-                  <p class="card-text spanish">Análisis de un conjunto de datos de encuestas sobre la satisfacción de los pasajeros de aerolíneas, utilizando algoritmos como Árboles de Decisión o SVM.</p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
+   </div>
+   <div class="container relleno" id="experience">
+   </div>
+   <hr class="hr-line"/>
+   <div class="container main-container-experience">
+    <div class="container title-container my-5">
+     <h1 class="experience-title english">
+      Work Experience
+     </h1>
+     <h1 class="experience-title spanish">
+      Experiencia Laboral
+     </h1>
     </div>
-
-    <div class="container d-lg-none main-projects-container-d-sm">
-      <div class="container title-container">
-        <h1 class="projects-title english">My projects</h1>
-        <h1 class="projects-title spanish">Mis proyectos</h1>
+    <div class="container" id="experience-list">
+     <!-- Aquí se insertarán experiencias dinámicamente -->
+     <div class="experience-item">
+      <img class="experience-logo" src="static/whitebox.png"/>
+      <div class="experience-details">
+       <h5 class="english">
+        Junior Data Scientist - Whitebox (Sept 2025 - Present)
+       </h5>
+       <h5 class="spanish">
+        Junior Data Scientist - Whitebox (Sept 2025 - Present)
+       </h5>
+       <p class="english">
+        Participo activamente en proyectos de mayor escala, trabajando con modelos de lenguaje (LLMs) o apoyando el despliegue de soluciones en entornos de nube.
+       </p>
+       <p class="spanish">
+        Take an active role in larger-scale projects, working with language models (LLMs) or supporting the deployment of solutions in cloud environments.
+       </p>
       </div>
-      <div class="container projects-container-d-sm my-3">
-        <div class="row container project-d-sm">
-          <a href="https://github.com/javipzv/facial-recognition">
-            <div class="card zoom-btn">
-              <img class="card-img-top" src="/static/projects/project-facial-recognition.png" alt="Facial Recognition Project">
-              <div class="card-body">
-                <h5 class="card-title english">Mobile Gallery Facial Recognition</h5>
-                <h5 class="card-title spanish">Reconocimiento Facial en Galería Móvil</h5>
-                <p class="card-text english">Face Recognition Project Simulating a Mobile Photo Gallery with Machine Learning and Computer Vision Techniques.</p>
-                <p class="card-text spanish">Proyecto de reconocimiento de caras simulando la galería de un móvil con técnicas de machine learning y computer vision.</p>
-              </div>
-          </div>
-          </a>
-        </div>
-        <div class="row container project-d-sm">
-          <a href="https://github.com/javipzv/probabilistic-models-and-ensembles">
-            <div class="card zoom-btn">
-              <img class="card-img-top" src="/static/projects/project-probabilistic-and-ensembles.png" alt="Probabilistic and Ensembles Project">
-              <div class="card-body">
-                <h5 class="card-title english">Data analysis using Machine Learning algorithms</h5>
-                <h5 class="card-title spanish">Análisis de datos con algoritmos de Machine Learning</h5>
-                <p class="card-text english">>Analysis of a dataset using ML probabilistic models (Naive Bayes, QDA...) and ensemble methods (Random Forest, AdaBoost...).</p>
-                <p class="card-text spanish">Análisis de un dataset usando algunos modelos probabilísticos de ML (Naive Bayes, QDA...) y métodos de ensembles (Random Forest, AdaBoost...).</p>
-              </div>
-          </div>
-          </a>
-        </div>
-        <div class="row container project-d-sm">
-          <a href="https://github.com/javipzv/fruits-data-analysis-and-clustering">
-            <div class="card zoom-btn">
-              <img class="card-img-top" src="/static/projects/project-clustering.png" alt="Clustering Project">
-              <div class="card-body">
-                <h5 class="card-title english">Fruit Dataset Analysis And Clustering Techniques</h5>
-                <h5 class="card-title spanish">Análisis de un dataset de frutas y uso de algoritmos de clustering</h5>
-                <p class="card-text english">Analysis of a fruit dataset. It covers data exploration, preprocessing techniques, the application of various clustering methods, and discussion of the results.</p>
-                <p class="card-text spanish">Análisis de un dataset de frutas que abarca la exploración de los datos, su preproceso, aplicación de métodos de clustering y la discusión de los resultados.</p>
-              </div>
-          </div>
-          </a>
-        </div>
-        <div class="row container project-d-sm">
-          <a href="https://github.com/javipzv/kmeans-algorithm-from-scratch">
-            <div class="card zoom-btn">
-              <img class="card-img-top" src="/static/projects/project-kmeans.png" alt="K-Means Project">
-              <div class="card-body">
-                <h5 class="card-title english">K-Means From Scratch</h5>
-                <h5 class="card-title spanish">K-Means desde cero</h5>
-                <p class="card-text english">Python implementation of the K-Means clustering algorithm from scratch (using NumPy). It includes tests on different datasets.</p>
-                <p class="card-text spanish">Implementación de K-Means desde cero en Python, usando NumPy. Incluye tests para distintos datasets.</p>
-              </div>
-          </div>
-          </a>
-        </div>
-        <div class="row container project-d-sm">
-          <a href="https://github.com/javipzv/handwritten-digits-classifier">
-            <div class="card zoom-btn">
-              <img class="card-img-top" src="/static/projects/project-digits.png" alt="Digit Recognition Project">
-              <div class="card-body">
-                <h5 class="card-title english">Handwritten Digits Classifier (NN and CNN)</h5>
-                <h5 class="card-title spanish">Clasificador de dígitos (NN y CNN)</h5>
-                <p class="card-text english">This project aims to develop a handwritten digits classifier using both normal NN and CNN architectures, enabling recognition of digits.</p>
-                <p class="card-text spanish">Este proyecto tiene el objetivo de desarrollar un clasificador de dígitos, permitiendo así el reconocimento.</p>
-              </div>
-          </div>
-          </a>
-        </div>
-        <div class="row container project-d-sm">
-          <a href="https://github.com/javipzv/hotel-reservation-prediction-with-nn">
-            <div class="card zoom-btn">
-              <img class="card-img-top" src="/static/projects/project-hotel.png" alt="Hotel Prediction Project">
-              <div class="card-body">
-                <h5 class="card-title english">Hotel Reservation Prediction</h5>
-                <h5 class="card-title spanish">Predicción de reservas en hoteles con NN</h5>
-                <p class="card-text english">This project entails preprocessing and analysis of hotel reservation data, with a meticulous examination of diverse neural network parameters.</p>
-                <p class="card-text spanish">Este trabajo cubre el preproceso y el análisis de un dataset de reservas en hoteles, haciendo un análisis exploratorio de los parámetros de la NN.</p>
-              </div>
-          </div>
-          </a>
-        </div>
-        <div class="row container project-d-sm">
-          <a href="https://github.com/javipzv/homographies-and-image-stitching">
-            <div class="card zoom-btn">
-              <img class="card-img-top" src="/static/projects/project-image-stitching.png" alt="Image Stitching Project">
-              <div class="card-body">
-                <h5 class="card-title english">Homographies and Image Stitching Techniques</h5>
-                <h5 class="card-title spanish">Homografías y técnicas de panorámicas de imágenes</h5>
-                <p class="card-text english">Image stitching using homographies, applying different methods of keypoint detection, matching techniques, RANSAC and projections.</p>
-                <p class="card-text spanish">Unión de imágenes usando homografías, aplicando distintos métodos de detección de keypoints, técnicas de matching, RANSAC y proyecciones.</p>
-              </div>
-          </div>
-          </a>
-        </div>
-        <div class="row container project-d-sm">
-          <a href="https://github.com/javipzv/airline-passenger-satisfaction-prediction">
-            <div class="card zoom-btn">
-              <img class="card-img-top" src="/static/projects/project-airline-prediction.png" alt="Airline Project">
-              <div class="card-body">
-                <h5 class="card-title english">Airline Passenger Satisfaction Prediction</h5>
-                <h5 class="card-title spanish">Predicción de satisfacción de pasajeros</h5>
-                <p class="card-text english">Analysis of a dataset of some polls about airline passengers satisfaction and other data using algorithms such as Decision Trees or SVM.</p>
-                <p class="card-text spanish">Análisis de un conjunto de datos de encuestas sobre la satisfacción de los pasajeros de aerolíneas, utilizando algoritmos como Árboles de Decisión o SVM.</p>
-              </div>
-          </div>
-          </a>
-        </div>
+     </div>
+     <div class="experience-item">
+      <img class="experience-logo" src="static/whitebox.png"/>
+      <div class="experience-details">
+       <h5 class="english">
+        Intern Data Scientist - Whitebox (Feb 2025 - Aug 2025)
+       </h5>
+       <h5 class="spanish">
+        Intern Data Scientist - Whitebox (Feb 2025 - Aug 2025)
+       </h5>
+       <p class="english">
+        Colaboré en proyectos de ciencia de datos e inteligencia artificial, adquiriendo experiencia práctica en tareas como preparación de datos, análisis exploratorio o web scraping.
+       </p>
+       <p class="spanish">
+        Contributed to early-stage data science and AI projects, gaining hands-on experience with tasks such as data preparation, exploratory analysis, and web scraping.
+       </p>
       </div>
+     </div>
+     <div class="experience-item">
+      <img class="experience-logo" src="static/UPM.png"/>
+      <div class="experience-details">
+       <h5 class="english">
+        Beca de Colaboración en el Departamento de Inteligencia Artificial - Universidad Politécnica de Madrid (Nov 2024 - May 2025)
+       </h5>
+       <h5 class="spanish">
+        Beca de Colaboración en el Departamento de Inteligencia Artificial - Universidad Politécnica de Madrid (Nov 2024 - May 2025)
+       </h5>
+       <p class="english">
+        Integration of probabilistic and additive models in InterpretML, evaluating their performance on real and simulated data to advance methods of interpretability in artificial intelligence.
+       </p>
+       <p class="spanish">
+        Integración de modelos probabilísticos y aditivos en InterpretML, evaluando su desempeño en datos reales y simulados para avanzar en métodos de interpretabilidad en inteligencia artificial.
+       </p>
+      </div>
+     </div>
     </div>
-
-    <div class="container relleno" id="skills"></div>
-    <hr class="hr-line">
-
-    <div class="container main-container-skills">
-      <div class="container title-container my-5">
-        <h1 class="skills-title english">My skills</h1>
-        <h1 class="skills-title spanish">Mis habilidades</h1>
-      </div>
-      <div class="container skills-container">
-        <div class="row">
-          <div class="container skill col-md-3">
-            <a href="https://es.wikipedia.org/wiki/Python"><img class="skill-img zoom mt-sm-5" src="/static/icons/python.svg" alt="Python"></a>
-          </div>
-          <div class="container skill col-md-3">
-            <a href="https://es.wikipedia.org/wiki/TensorFlow"><img class="skill-img zoom mt-sm-5" src="/static/icons/tensorflow.svg" alt="Tensorflow"></a>
-          </div>
-          <div class="container skill col-md-3">
-            <a href="https://es.wikipedia.org/wiki/MySQL"><img class="skill-img zoom mt-sm-5" src="/static/icons/mysql.svg" alt="MySQL"></a>
-          </div>
-          <div class="container skill col-md-3">
-            <a href="https://es.wikipedia.org/wiki/C%2B%2B"><img class="skill-img zoom mt-sm-5" src="/static/icons/cpp.svg" alt="C++"></a>
-          </div>
-        </div>
-        <div class="row my-5">
-          <div class="container skill col-md-3">
-            <a href="https://es.wikipedia.org/wiki/Amazon_Web_Services"><img class="skill-img zoom mt-sm-5" src="/static/icons/aws.svg" alt="AWS"></a>
-          </div>
-          <div class="container skill col-md-3">
-            <a href="https://es.wikipedia.org/wiki/Docker"><img class="skill-img zoom mt-sm-5" src="/static/icons/docker.svg" alt="Docker"></a>
-          </div>
-          <div class="container skill col-md-3">
-            <a href="https://es.wikipedia.org/wiki/Apache_Kafka"><img class="skill-img zoom mt-sm-5" src="/static/icons/kafka.svg" alt="Kafka"></a>
-          </div>
-          <div class="container skill col-md-3">
-            <a href="https://es.wikipedia.org/wiki/NumPy"><img class="skill-img zoom mt-sm-5" src="/static/icons/numpy.svg" alt="NumPy"></a>
-          </div>
-        </div>
-      </div>
+   </div>
+   <div class="container relleno" id="projects">
+   </div>
+   <hr class="hr-line"/>
+   <div class="container-lg d-none d-lg-block main-projects-container">
+    <div class="container title-container">
+     <h1 class="projects-title english">
+      My projects
+     </h1>
+     <h1 class="projects-title spanish">
+      Mis proyectos
+     </h1>
     </div>
-
-    <div class="container relleno" id="contact"></div>
-    <hr class="hr-line">
-
-    <div class="container main-container-contact">
-      <div class="container title-container my-5">
-        <h1 class="contact-title english">Contact</h1>
-        <h1 class="contact-title spanish">Contacto</h1>
+    <div class="container projects-container my-3">
+     <div class="row">
+      <div class="container project">
+       <a href="https://github.com/javipzv/facial-recognition">
+        <div class="card zoom-btn">
+         <img alt="Facial Recognition Project" class="card-img-top" src="/static/projects/project-facial-recognition.png"/>
+         <div class="card-body">
+          <h5 class="card-title english">
+           Mobile Gallery Facial Recognition
+          </h5>
+          <h5 class="card-title spanish">
+           Reconocimiento Facial en Galería Móvil
+          </h5>
+          <p class="card-text english">
+           Face Recognition Project Simulating a Mobile Photo Gallery with Machine Learning and Computer Vision Techniques.
+          </p>
+          <p class="card-text spanish">
+           Proyecto de reconocimiento de caras simulando la galería de un móvil con técnicas de machine learning y computer vision.
+          </p>
+         </div>
+        </div>
+       </a>
       </div>
-      <div class="container mt-5 contact-container text-white">
-        <form action="https://formspree.io/f/xkndpebg" method="post">
-            <div class="px-4 pt-4">
-                <label for="subject" class="form-label english">Subject</label>
-                <label for="subject" class="form-label spanish">Asunto</label>
-                <input type="text" class="form-control" id="subject" name="subject" required>
-            </div>
-            <div class="px-4 pt-4">
-                <label for="message" class="form-label english">Message</label>
-                <label for="message" class="form-label spanish">Mensaje</label>
-                <textarea class="form-control" rows="6" id="message" name="message" style="max-height: 262px;" required></textarea>
-            </div>
-            <div class="container text-center btn-bottom">
-                <button type="submit" class="btn btn-primary btn-sucess w-25">
-                    <b class="english">Send</b>
-                    <b class="spanish">Enviar</b>
-                </button>
-            </div>
-        </form>
+      <div class="container project">
+       <a href="https://github.com/javipzv/probabilistic-models-and-ensembles">
+        <div class="card zoom-btn">
+         <img alt="Probabilistic and Ensembles Project" class="card-img-top" src="/static/projects/project-probabilistic-and-ensembles.png"/>
+         <div class="card-body">
+          <h5 class="card-title english">
+           Data analysis using Machine Learning algorithms
+          </h5>
+          <h5 class="card-title spanish">
+           Análisis de datos con algoritmos de Machine Learning
+          </h5>
+          <p class="card-text english">
+           Analysis of a dataset using ML probabilistic models (Naive Bayes, QDA...) and ensemble methods (Random Forest, AdaBoost...).
+          </p>
+          <p class="card-text spanish">
+           Análisis de un dataset usando algunos modelos probabilísticos de ML (Naive Bayes, QDA...) y métodos de ensembles (Random Forest, AdaBoost...).
+          </p>
+         </div>
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="container" style="height: 50px;">
+     </div>
+     <div class="row">
+      <div class="container project">
+       <a href="https://github.com/javipzv/fruits-data-analysis-and-clustering">
+        <div class="card zoom-btn">
+         <img alt="Clustering Project" class="card-img-top" src="/static/projects/project-clustering.png"/>
+         <div class="card-body">
+          <h5 class="card-title english">
+           Fruit Dataset Analysis And Clustering Techniques
+          </h5>
+          <h5 class="card-title spanish">
+           Análisis de un dataset de frutas y uso de algoritmos de clustering
+          </h5>
+          <p class="card-text english">
+           Analysis of a fruit dataset. It covers data exploration, preprocessing techniques, the application of various clustering methods, and discussion of the results.
+          </p>
+          <p class="card-text spanish">
+           Análisis de un dataset de frutas que abarca la exploración de los datos, su preproceso, aplicación de métodos de clustering y la discusión de los resultados.
+          </p>
+         </div>
+        </div>
+       </a>
+      </div>
+      <div class="container project">
+       <a href="https://github.com/javipzv/kmeans-algorithm-from-scratch">
+        <div class="card zoom-btn">
+         <img alt="K-Means Project" class="card-img-top" src="/static/projects/project-kmeans.png"/>
+         <div class="card-body">
+          <h5 class="card-title english">
+           K-Means From Scratch
+          </h5>
+          <h5 class="card-title spanish">
+           K-Means desde cero
+          </h5>
+          <p class="card-text english">
+           Python implementation of the K-Means clustering algorithm from scratch (using NumPy). It includes tests on different datasets.
+          </p>
+          <p class="card-text spanish">
+           Implementación de K-Means desde cero en Python, usando NumPy. Incluye tests para distintos datasets.
+          </p>
+         </div>
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="container" style="height: 50px;">
+     </div>
+     <div class="row">
+      <div class="container project">
+       <a href="https://github.com/javipzv/handwritten-digits-classifier">
+        <div class="card zoom-btn">
+         <img alt="Digit Recognition Project" class="card-img-top" src="/static/projects/project-digits.png"/>
+         <div class="card-body">
+          <h5 class="card-title english">
+           Handwritten Digits Classifier (NN and CNN)
+          </h5>
+          <h5 class="card-title spanish">
+           Clasificador de dígitos (NN y CNN)
+          </h5>
+          <p class="card-text english">
+           This project aims to develop a handwritten digits classifier using both normal NN and CNN architectures, enabling recognition of digits.
+          </p>
+          <p class="card-text spanish">
+           Este proyecto tiene el objetivo de desarrollar un clasificador de dígitos, permitiendo así el reconocimento.
+          </p>
+         </div>
+        </div>
+       </a>
+      </div>
+      <div class="container project">
+       <a href="https://github.com/javipzv/hotel-reservation-prediction-with-nn">
+        <div class="card zoom-btn">
+         <img alt="Hotel Prediction Project" class="card-img-top" src="/static/projects/project-hotel.png"/>
+         <div class="card-body">
+          <h5 class="card-title english">
+           Hotel Reservation Prediction
+          </h5>
+          <h5 class="card-title spanish">
+           Predicción de reservas en hoteles con NN
+          </h5>
+          <p class="card-text english">
+           This project entails preprocessing and analysis of hotel reservation data, with a meticulous examination of diverse neural network parameters.
+          </p>
+          <p class="card-text spanish">
+           Este trabajo cubre el preproceso y el análisis de un dataset de reservas en hoteles, haciendo un análisis exploratorio de los parámetros de la NN.
+          </p>
+         </div>
+        </div>
+       </a>
+      </div>
+     </div>
+     <div class="container" style="height: 50px;">
+     </div>
+     <div class="row">
+      <div class="container project">
+       <a href="https://github.com/javipzv/homographies-and-image-stitching">
+        <div class="card zoom-btn">
+         <img alt="Image Stitching Project" class="card-img-top" src="/static/projects/project-image-stitching.png"/>
+         <div class="card-body">
+          <h5 class="card-title english">
+           Homographies and Image Stitching Techniques
+          </h5>
+          <h5 class="card-title spanish">
+           Homografías y técnicas de panorámicas de imágenes
+          </h5>
+          <p class="card-text english">
+           Image stitching using homographies, applying different methods of keypoint detection, matching techniques, RANSAC and projections.
+          </p>
+          <p class="card-text spanish">
+           Unión de imágenes usando homografías, aplicando distintos métodos de detección de keypoints, técnicas de matching, RANSAC y proyecciones.
+          </p>
+         </div>
+        </div>
+       </a>
+      </div>
+      <div class="container project">
+       <a href="https://github.com/javipzv/airline-passenger-satisfaction-prediction">
+        <div class="card zoom-btn">
+         <img alt="Airline Project" class="card-img-top" src="/static/projects/project-airline-prediction.png"/>
+         <div class="card-body">
+          <h5 class="card-title english">
+           Airline Passenger Satisfaction Prediction
+          </h5>
+          <h5 class="card-title spanish">
+           Predicción de satisfacción de pasajeros
+          </h5>
+          <p class="card-text english">
+           Analysis of a dataset of some polls about airline passengers satisfaction and other data using algorithms such as Decision Trees or SVM.
+          </p>
+          <p class="card-text spanish">
+           Análisis de un conjunto de datos de encuestas sobre la satisfacción de los pasajeros de aerolíneas, utilizando algoritmos como Árboles de Decisión o SVM.
+          </p>
+         </div>
+        </div>
+       </a>
+      </div>
+     </div>
     </div>
+   </div>
+   <div class="container d-lg-none main-projects-container-d-sm">
+    <div class="container title-container">
+     <h1 class="projects-title english">
+      My projects
+     </h1>
+     <h1 class="projects-title spanish">
+      Mis proyectos
+     </h1>
+    </div>
+    <div class="container projects-container-d-sm my-3">
+     <div class="row container project-d-sm">
+      <a href="https://github.com/javipzv/facial-recognition">
+       <div class="card zoom-btn">
+        <img alt="Facial Recognition Project" class="card-img-top" src="/static/projects/project-facial-recognition.png"/>
+        <div class="card-body">
+         <h5 class="card-title english">
+          Mobile Gallery Facial Recognition
+         </h5>
+         <h5 class="card-title spanish">
+          Reconocimiento Facial en Galería Móvil
+         </h5>
+         <p class="card-text english">
+          Face Recognition Project Simulating a Mobile Photo Gallery with Machine Learning and Computer Vision Techniques.
+         </p>
+         <p class="card-text spanish">
+          Proyecto de reconocimiento de caras simulando la galería de un móvil con técnicas de machine learning y computer vision.
+         </p>
+        </div>
+       </div>
+      </a>
+     </div>
+     <div class="row container project-d-sm">
+      <a href="https://github.com/javipzv/probabilistic-models-and-ensembles">
+       <div class="card zoom-btn">
+        <img alt="Probabilistic and Ensembles Project" class="card-img-top" src="/static/projects/project-probabilistic-and-ensembles.png"/>
+        <div class="card-body">
+         <h5 class="card-title english">
+          Data analysis using Machine Learning algorithms
+         </h5>
+         <h5 class="card-title spanish">
+          Análisis de datos con algoritmos de Machine Learning
+         </h5>
+         <p class="card-text english">
+          &gt;Analysis of a dataset using ML probabilistic models (Naive Bayes, QDA...) and ensemble methods (Random Forest, AdaBoost...).
+         </p>
+         <p class="card-text spanish">
+          Análisis de un dataset usando algunos modelos probabilísticos de ML (Naive Bayes, QDA...) y métodos de ensembles (Random Forest, AdaBoost...).
+         </p>
+        </div>
+       </div>
+      </a>
+     </div>
+     <div class="row container project-d-sm">
+      <a href="https://github.com/javipzv/fruits-data-analysis-and-clustering">
+       <div class="card zoom-btn">
+        <img alt="Clustering Project" class="card-img-top" src="/static/projects/project-clustering.png"/>
+        <div class="card-body">
+         <h5 class="card-title english">
+          Fruit Dataset Analysis And Clustering Techniques
+         </h5>
+         <h5 class="card-title spanish">
+          Análisis de un dataset de frutas y uso de algoritmos de clustering
+         </h5>
+         <p class="card-text english">
+          Analysis of a fruit dataset. It covers data exploration, preprocessing techniques, the application of various clustering methods, and discussion of the results.
+         </p>
+         <p class="card-text spanish">
+          Análisis de un dataset de frutas que abarca la exploración de los datos, su preproceso, aplicación de métodos de clustering y la discusión de los resultados.
+         </p>
+        </div>
+       </div>
+      </a>
+     </div>
+     <div class="row container project-d-sm">
+      <a href="https://github.com/javipzv/kmeans-algorithm-from-scratch">
+       <div class="card zoom-btn">
+        <img alt="K-Means Project" class="card-img-top" src="/static/projects/project-kmeans.png"/>
+        <div class="card-body">
+         <h5 class="card-title english">
+          K-Means From Scratch
+         </h5>
+         <h5 class="card-title spanish">
+          K-Means desde cero
+         </h5>
+         <p class="card-text english">
+          Python implementation of the K-Means clustering algorithm from scratch (using NumPy). It includes tests on different datasets.
+         </p>
+         <p class="card-text spanish">
+          Implementación de K-Means desde cero en Python, usando NumPy. Incluye tests para distintos datasets.
+         </p>
+        </div>
+       </div>
+      </a>
+     </div>
+     <div class="row container project-d-sm">
+      <a href="https://github.com/javipzv/handwritten-digits-classifier">
+       <div class="card zoom-btn">
+        <img alt="Digit Recognition Project" class="card-img-top" src="/static/projects/project-digits.png"/>
+        <div class="card-body">
+         <h5 class="card-title english">
+          Handwritten Digits Classifier (NN and CNN)
+         </h5>
+         <h5 class="card-title spanish">
+          Clasificador de dígitos (NN y CNN)
+         </h5>
+         <p class="card-text english">
+          This project aims to develop a handwritten digits classifier using both normal NN and CNN architectures, enabling recognition of digits.
+         </p>
+         <p class="card-text spanish">
+          Este proyecto tiene el objetivo de desarrollar un clasificador de dígitos, permitiendo así el reconocimento.
+         </p>
+        </div>
+       </div>
+      </a>
+     </div>
+     <div class="row container project-d-sm">
+      <a href="https://github.com/javipzv/hotel-reservation-prediction-with-nn">
+       <div class="card zoom-btn">
+        <img alt="Hotel Prediction Project" class="card-img-top" src="/static/projects/project-hotel.png"/>
+        <div class="card-body">
+         <h5 class="card-title english">
+          Hotel Reservation Prediction
+         </h5>
+         <h5 class="card-title spanish">
+          Predicción de reservas en hoteles con NN
+         </h5>
+         <p class="card-text english">
+          This project entails preprocessing and analysis of hotel reservation data, with a meticulous examination of diverse neural network parameters.
+         </p>
+         <p class="card-text spanish">
+          Este trabajo cubre el preproceso y el análisis de un dataset de reservas en hoteles, haciendo un análisis exploratorio de los parámetros de la NN.
+         </p>
+        </div>
+       </div>
+      </a>
+     </div>
+     <div class="row container project-d-sm">
+      <a href="https://github.com/javipzv/homographies-and-image-stitching">
+       <div class="card zoom-btn">
+        <img alt="Image Stitching Project" class="card-img-top" src="/static/projects/project-image-stitching.png"/>
+        <div class="card-body">
+         <h5 class="card-title english">
+          Homographies and Image Stitching Techniques
+         </h5>
+         <h5 class="card-title spanish">
+          Homografías y técnicas de panorámicas de imágenes
+         </h5>
+         <p class="card-text english">
+          Image stitching using homographies, applying different methods of keypoint detection, matching techniques, RANSAC and projections.
+         </p>
+         <p class="card-text spanish">
+          Unión de imágenes usando homografías, aplicando distintos métodos de detección de keypoints, técnicas de matching, RANSAC y proyecciones.
+         </p>
+        </div>
+       </div>
+      </a>
+     </div>
+     <div class="row container project-d-sm">
+      <a href="https://github.com/javipzv/airline-passenger-satisfaction-prediction">
+       <div class="card zoom-btn">
+        <img alt="Airline Project" class="card-img-top" src="/static/projects/project-airline-prediction.png"/>
+        <div class="card-body">
+         <h5 class="card-title english">
+          Airline Passenger Satisfaction Prediction
+         </h5>
+         <h5 class="card-title spanish">
+          Predicción de satisfacción de pasajeros
+         </h5>
+         <p class="card-text english">
+          Analysis of a dataset of some polls about airline passengers satisfaction and other data using algorithms such as Decision Trees or SVM.
+         </p>
+         <p class="card-text spanish">
+          Análisis de un conjunto de datos de encuestas sobre la satisfacción de los pasajeros de aerolíneas, utilizando algoritmos como Árboles de Decisión o SVM.
+         </p>
+        </div>
+       </div>
+      </a>
+     </div>
+    </div>
+   </div>
+   <div class="container relleno" id="skills">
+   </div>
+   <hr class="hr-line"/>
+   <div class="container main-container-skills">
+    <div class="container title-container my-5">
+     <h1 class="skills-title english">
+      My skills
+     </h1>
+     <h1 class="skills-title spanish">
+      Mis habilidades
+     </h1>
+    </div>
+    <div class="container skills-container">
+     <div class="row">
+      <div class="container skill col-md-3">
+       <a href="https://es.wikipedia.org/wiki/Python">
+        <img alt="Python" class="skill-img zoom mt-sm-5" src="/static/icons/python.svg"/>
+       </a>
+      </div>
+      <div class="container skill col-md-3">
+       <a href="https://es.wikipedia.org/wiki/TensorFlow">
+        <img alt="Tensorflow" class="skill-img zoom mt-sm-5" src="/static/icons/tensorflow.svg"/>
+       </a>
+      </div>
+      <div class="container skill col-md-3">
+       <a href="https://es.wikipedia.org/wiki/MySQL">
+        <img alt="MySQL" class="skill-img zoom mt-sm-5" src="/static/icons/mysql.svg"/>
+       </a>
+      </div>
+      <div class="container skill col-md-3">
+       <a href="https://es.wikipedia.org/wiki/C%2B%2B">
+        <img alt="C++" class="skill-img zoom mt-sm-5" src="/static/icons/cpp.svg"/>
+       </a>
+      </div>
+     </div>
+     <div class="row my-5">
+      <div class="container skill col-md-3">
+       <a href="https://es.wikipedia.org/wiki/Amazon_Web_Services">
+        <img alt="AWS" class="skill-img zoom mt-sm-5" src="/static/icons/aws.svg"/>
+       </a>
+      </div>
+      <div class="container skill col-md-3">
+       <a href="https://es.wikipedia.org/wiki/Docker">
+        <img alt="Docker" class="skill-img zoom mt-sm-5" src="/static/icons/docker.svg"/>
+       </a>
+      </div>
+      <div class="container skill col-md-3">
+       <a href="https://es.wikipedia.org/wiki/Apache_Kafka">
+        <img alt="Kafka" class="skill-img zoom mt-sm-5" src="/static/icons/kafka.svg"/>
+       </a>
+      </div>
+      <div class="container skill col-md-3">
+       <a href="https://es.wikipedia.org/wiki/NumPy">
+        <img alt="NumPy" class="skill-img zoom mt-sm-5" src="/static/icons/numpy.svg"/>
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="container relleno" id="contact">
+   </div>
+   <hr class="hr-line"/>
+   <div class="container main-container-contact">
+    <div class="container title-container my-5">
+     <h1 class="contact-title english">
+      Contact
+     </h1>
+     <h1 class="contact-title spanish">
+      Contacto
+     </h1>
+    </div>
+    <div class="container mt-5 contact-container text-white">
+     <form action="https://formspree.io/f/xkndpebg" method="post">
+      <div class="px-4 pt-4">
+       <label class="form-label english" for="subject">
+        Subject
+       </label>
+       <label class="form-label spanish" for="subject">
+        Asunto
+       </label>
+       <input class="form-control" id="subject" name="subject" required="" type="text"/>
+      </div>
+      <div class="px-4 pt-4">
+       <label class="form-label english" for="message">
+        Message
+       </label>
+       <label class="form-label spanish" for="message">
+        Mensaje
+       </label>
+       <textarea class="form-control" id="message" name="message" required="" rows="6" style="max-height: 262px;"></textarea>
+      </div>
+      <div class="container text-center btn-bottom">
+       <button class="btn btn-primary btn-sucess w-25" type="submit">
+        <b class="english">
+         Send
+        </b>
+        <b class="spanish">
+         Enviar
+        </b>
+       </button>
+      </div>
+     </form>
+    </div>
+   </div>
+   <footer class="fixed-bottom bg-dark text-center">
+    <div class="text-center text-white p-3 footer-container">
+     <a href="https://github.com/javipzv">
+      <img class="logo zoom" src="static/icons/github-white.png"/>
+     </a>
+     <a class="non-color logo english" href="#contact">
+      Contact
+     </a>
+     <a class="non-color logo spanish" href="#contact">
+      Contacto
+     </a>
+     <a href="https://www.linkedin.com/in/javier-p%C3%A9rez-vargas-8002b9213/">
+      <img class="logo zoom" src="static/icons/linkedin.svg"/>
+     </a>
+    </div>
+   </footer>
   </div>
-
-  <footer class="fixed-bottom bg-dark text-center">
-      <div class="text-center text-white p-3 footer-container">
-        <a href="https://github.com/javipzv"><img class="logo zoom" src="static/icons/github-white.png"></a>
-        <a class="non-color logo english" href="#contact">Contact</a>
-        <a class="non-color logo spanish" href="#contact">Contacto</a>
-        <a href="https://www.linkedin.com/in/javier-p%C3%A9rez-vargas-8002b9213/"><img class="logo zoom" src="static/icons/linkedin.svg"></a>
-      </div>
-  </footer>
-
-</body>
+ </body>
 </html>

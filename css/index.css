@@ -169,6 +169,37 @@ body{
     text-decoration: none;
 }
 
+.main-container-experience {
+    margin-top: 60px;
+    width: 80%;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 1px solid #437fba;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.experience-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.experience-details h5 {
+    margin-bottom: 8px;
+}
+
+.experience-details p {
+    margin: 0;
+}
+
 .footer-container{
     margin-right: 30px;
 }
